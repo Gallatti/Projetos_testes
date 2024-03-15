@@ -1,0 +1,35 @@
+Etapas do Projeto
+
+Acesso a base de dados Postgree SQL para confirmar e fazer a exportação dos 
+dados necessários para realizar o trabalho.
+
+Querys realizadasna base de dados:
+
+SELECT * FROM public.limits
+ORDER BY id ASC 
+(Primeiro confirmando a tabela limits).
+
+SELECT * FROM public.customers
+ORDER BY id ASC 
+(Confirmando a tabela customers).
+
+Tabela affiliates foi baixada em um arquivo com extensão csv, direto
+do repositório do GitHub.
+
+A análise de dados foi feita no Jupyter Notebook, utilizando a linguagem Python
+com os pacotes necessários para preparar os dados.
+
+Ao carregar as tabelas limits e customers foi acrescentado no titulo das 
+colunas os nomes de acordo com a base de dados.
+
+Foi carregado 3 datasets (limits, customers e affiliates), para a 
+realização dos calculos.
+
+As questões foram respondidas todas no jupyter notebook, 
+pois de acordo com as opções para serem realizadas, essa
+foi a melhor forma.
+
+Foi gerado um novo dataframe chamado afiliados.csv, no final do jupyter notebook.
+
+Agora com o arquivo afiliados.csv, foi respondidas as questões 
+do projeto com uma visualização gráfica através do PowerBI.
